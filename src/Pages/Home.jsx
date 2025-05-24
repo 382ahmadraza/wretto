@@ -3,7 +3,12 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      <h1 className='text-[20px] font-bold text-center'>Home</h1>
+
+      <img src={'/images/logo.png'} height={200} width={200} alt="logo"/>
+      <h1 className='text-xl text-center text-darkGray'>Home
+        
+      </h1>
+      <p className='text-lightGray'>jsdjsdh lakjds lasjdaisd asjdlasjdlkas sjdisa dl sa</p>
 
     </div>
   )

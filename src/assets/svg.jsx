@@ -1,0 +1,1 @@
+// all the svg icons used in the app export them here
