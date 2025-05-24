@@ -1,16 +1,21 @@
 import React from 'react'
-import Footer from '../components/shared/footer'
-import Logo from '../components/shared/logo'
-
+// import Footer from '../Components/shared/footer'
+import Header from '../Components/shared/Header'
+import NewsLayout from '../Components/shared/NewsLayout'
+import HealthSection from '../Components/shared/HealthSection'
+import Topstories from '../Components/shared/Topstories'
+import Businsess from '../Components/shared/Business'
+import World from '../Components/shared/World'
 function Home() {
   return (
     <div>
-      <Logo/>
-      <h1 className='text-xl text-center text-darkGray'>Home
-        
-      </h1>
-      <p className='text-lightGray'>jsdjsdh lakjds lasjdaisd asjdlasjdlkas sjdisa dl sa</p>
-      <Footer/>
+      <Header/>
+      <NewsLayout/>
+      <HealthSection/>
+      <Topstories/>
+      <Businsess/>
+      <World/>
+      {/* <Footer/> */}
     </div>
   )
 }
